@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.drakosha.terrafirmadragonsurvival.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.terrafirmadragonsurvival.refmap.json",
+  "mixins": [
+    "DragonStateHandlerMixin",
+    "NutrientsHelpersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

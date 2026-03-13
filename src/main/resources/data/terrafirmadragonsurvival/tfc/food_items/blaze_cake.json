@@ -1,0 +1,13 @@
+﻿{
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "hunger": 10,
+  "saturation": 10,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:metals": 0.5,
+    "terrafirmadragonsurvival:flux": 1.5,
+    "terrafirmadragonsurvival:lava": 2.5
+  }
+}

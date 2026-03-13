@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "hunger": 2,
+  "saturation": 2,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:toxins": 1.0
+  }
+}

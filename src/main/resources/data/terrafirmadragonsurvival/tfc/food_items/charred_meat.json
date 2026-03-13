@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:charred_meat"
+  },
+  "hunger": 8,
+  "saturation": 10,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:carbon": 1.0
+  }
+}

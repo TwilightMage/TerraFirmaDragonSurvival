@@ -1,0 +1,16 @@
+﻿{
+  "ingredient": {
+    "item": "create:creative_blaze_cake"
+  },
+  "hunger": 50,
+  "saturation": 50,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:metals": 10.0,
+    "terrafirmadragonsurvival:flux": 10.0,
+    "terrafirmadragonsurvival:silicon": 10.0,
+    "terrafirmadragonsurvival:carbon": 10.0,
+    "terrafirmadragonsurvival:irradiants": 10.0,
+    "terrafirmadragonsurvival:lava": 20.0
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:charcoal"
+  },
+  "hunger": 1,
+  "saturation": 2,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:carbon": 0.5
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:explosive_copper"
+  },
+  "hunger": 6,
+  "saturation": 4,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:metals": 2.5,
+    "terrafirmadragonsurvival:irradiants": 1.5,
+    "terrafirmadragonsurvival:carbon": 0.5
+  }
+}

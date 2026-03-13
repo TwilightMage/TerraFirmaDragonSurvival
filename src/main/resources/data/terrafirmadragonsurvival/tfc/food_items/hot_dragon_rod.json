@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:hot_dragon_rod"
+  },
+  "hunger": 4,
+  "saturation": 15,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:metals": 0.5,
+    "terrafirmadragonsurvival:irradiants": 2.0
+  }
+}

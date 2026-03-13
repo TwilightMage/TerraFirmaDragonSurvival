@@ -1,0 +1,14 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:charged_soup"
+  },
+  "hunger": 15,
+  "saturation": 15,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:carbon": 4.0,
+    "terrafirmadragonsurvival:irradiants": 2.5,
+    "terrafirmadragonsurvival:silicon": 1.5,
+    "terrafirmadragonsurvival:lava": 10.0
+  }
+}

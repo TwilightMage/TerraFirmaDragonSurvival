@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:charged_coal"
+  },
+  "hunger": 6,
+  "saturation": 1,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:carbon": 2.0,
+    "terrafirmadragonsurvival:irradiants": 2.5
+  }
+}
