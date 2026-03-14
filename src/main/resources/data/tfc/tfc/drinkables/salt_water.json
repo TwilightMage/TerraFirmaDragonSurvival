@@ -1,0 +1,8 @@
+{
+  "ingredient": "tfc:salt_water",
+  "may_drink_when_full": true,
+  "nutrients": {
+    "terrafirmanutrients:water": 2.0,
+    "terrafirmadragonsurvival:salts": 1.0
+  }
+}

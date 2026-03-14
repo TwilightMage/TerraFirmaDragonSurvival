@@ -7,7 +7,7 @@
   "decay_modifier": 0,
   "nutrients": {
     "terrafirmadragonsurvival:metals": 6.5,
-    "terrafirmadragonsurvival:silicon": 4.0,
+    "terrafirmadragonsurvival:silicates": 4.0,
     "terrafirmadragonsurvival:irradiants": 4.0,
     "terrafirmadragonsurvival:carbon": 1.5
   }

@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:glow_berries"
+  },
+  "hunger": 2,
+  "saturation": 1,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmanutrients:fruit": 0.25,
+    "terrafirmadragonsurvival:glucose": 0.5
+  }
+}

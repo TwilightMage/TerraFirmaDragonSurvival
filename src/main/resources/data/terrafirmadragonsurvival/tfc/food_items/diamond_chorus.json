@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:diamond_chorus"
+  },
+  "hunger": 15,
+  "saturation": 12,
+  "decay_modifier": 2,
+  "nutrients": {
+    "terrafirmadragonsurvival:toxins": 3.0,
+    "terrafirmadragonsurvival:glucose": 1.5
+  }
+}

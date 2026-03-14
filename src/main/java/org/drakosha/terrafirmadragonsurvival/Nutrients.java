@@ -3,6 +3,7 @@ package org.drakosha.terrafirmadragonsurvival;
 import by.dragonsurvivalteam.dragonsurvival.common.dragon_types.types.CaveDragonType;
 import by.dragonsurvivalteam.dragonsurvival.common.dragon_types.types.ForestDragonType;
 import by.dragonsurvivalteam.dragonsurvival.common.dragon_types.types.SeaDragonType;
+import net.dries007.tfc.common.TFCEffects;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -29,7 +30,7 @@ public class Nutrients {
 
     public static final RegistryObject<Nutrient> METALS = NUTRIENTS.register("metals", () -> new DragonNutrient(new Color(177, 161, 161), 0.5f));
     public static final RegistryObject<Nutrient> FLUX = NUTRIENTS.register("flux", () -> new DragonNutrient(new Color(205, 186, 96), 0.5f));
-    public static final RegistryObject<Nutrient> SILICON = NUTRIENTS.register("silicon", () -> new DragonNutrient(new Color(218, 218, 218), 0.5f));
+    public static final RegistryObject<Nutrient> SILICATES = NUTRIENTS.register("silicates", () -> new DragonNutrient(new Color(218, 218, 218), 0.5f));
     public static final RegistryObject<Nutrient> CARBON = NUTRIENTS.register("carbon", () -> new DragonNutrient(new Color(43, 43, 43), 0.5f));
     public static final RegistryObject<Nutrient> IRRADIANTS = NUTRIENTS.register("irradiants", () -> new DragonNutrient(new Color(179, 0, 0), 0.0f));
     public static final RegistryObject<Nutrient> LAVA = NUTRIENTS.register("lava", () -> new DragonNutrient(new Color(255, 93, 0), 0.5f));
@@ -54,7 +55,7 @@ public class Nutrients {
                         .removeByNamespace(TerraFirmaNutrients.MODID)
                         .add(METALS.get())       // e.g. metal dust
                         .add(FLUX.get())         // e.g. flux
-                        .add(SILICON.get())      // e.g. lava or silicon
+                        .add(SILICATES.get())      // e.g. lava or silicon
                         .add(CARBON.get())       // e.g. coal
                         .add(IRRADIANTS.get())   // e.g. redstone
                         .build();
@@ -64,7 +65,7 @@ public class Nutrients {
                         .withName(NUTRIENT_SET_FOREST_DRAGON)
                         .withPriority(1000)
                         .removeByNamespace(TerraFirmaNutrients.MODID)
-                        .add(GLUCOSE.get())    // they can also synthesize it under the sun
+                        .add(GLUCOSE.get())    // sugars, they can also synthesize it under the sun
                         .add(TOXINS.get())     // e.g. spider eye or rotten flesh
                         .add(org.drakosha.terrafirmanutrients.Nutrients.PROTEIN.get()) // meat
                         .add(PHOSPHATES.get()) // e.g. bonemeal?
@@ -87,12 +88,17 @@ public class Nutrients {
 
     @SubscribeEvent
     public static void onAteBadNutrient(AteBadNutrientEvent event) {
-        if (event.nutrient == FLUX.get()) {
+        if (event.nutrient == METALS.get() || event.nutrient == FLUX.get() || event.nutrient == SILICATES.get() || event.nutrient == CARBON.get()) {
+            event.player.addEffect(new MobEffectInstance(MobEffects.HUNGER, (int) Math.ceil(event.amount * 5), 1));
+        } else if (event.nutrient == IRRADIANTS.get()) {
             // Set on fire, 1 second for each 1.0 amount
-            event.player.setSecondsOnFire((int)Math.ceil(event.amount));
-        } else if (event.nutrient == IODINE.get()) {
-            // Poison, 5 seconds for each 1.0 amount, 1 level for each 5.0 amount
-            event.player.addEffect(new MobEffectInstance(MobEffects.POISON, (int)Math.ceil(event.amount * 5), (int)Math.ceil(event.amount / 5.0f)));
+            event.player.setSecondsOnFire((int) Math.ceil(event.amount));
+        } else if (event.nutrient == IODINE.get() || event.nutrient == TOXINS.get() || event.nutrient == TANNINS.get()) {
+            // Poison, 5 seconds for each 1.0 amount
+            event.player.addEffect(new MobEffectInstance(MobEffects.POISON, (int) Math.ceil(event.amount * 5), 1));
+        } else if (event.nutrient == SALTS.get()) {
+            // Thirst, 5 seconds for each 1.0 amount
+            event.player.addEffect(new MobEffectInstance(TFCEffects.THIRST.get(), (int) Math.ceil(event.amount * 5), 1));
         }
     }
 }

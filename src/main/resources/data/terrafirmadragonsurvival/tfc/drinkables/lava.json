@@ -2,8 +2,9 @@
   "ingredient": {
     "tag": "minecraft:lava"
   },
+  "may_drink_when_full": true,
   "nutrients": {
     "terrafirmadragonsurvival:lava": 2.0,
-    "terrafirmadragonsurvival:silicon": 0.5
+    "terrafirmadragonsurvival:silicates": 0.5
   }
 }

@@ -1,7 +1,7 @@
 {
   "nutrient.terrafirmadragonsurvival.metals":  "Metals",
   "nutrient.terrafirmadragonsurvival.flux":  "Flux",
-  "nutrient.terrafirmadragonsurvival.silicon":  "Silicon",
+  "nutrient.terrafirmadragonsurvival.silicates":  "Silicates",
   "nutrient.terrafirmadragonsurvival.carbon":  "Carbon",
   "nutrient.terrafirmadragonsurvival.irradiants":  "Irradiants",
   "nutrient.terrafirmadragonsurvival.lava":  "Lava",
@@ -12,5 +12,5 @@
   "nutrient.terrafirmadragonsurvival.iodine":  "Iodine",
   "nutrient.terrafirmadragonsurvival.chitin":  "Chitin",
   "nutrient.terrafirmadragonsurvival.salts":  "Salts",
-  "nutrient.terrafirmadragonsurvival.oils":  "OilS"
+  "nutrient.terrafirmadragonsurvival.oils":  "Oils"
 }

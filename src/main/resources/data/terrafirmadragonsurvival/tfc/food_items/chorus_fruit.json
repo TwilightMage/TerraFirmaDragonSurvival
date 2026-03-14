@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:chorus_fruit"
+  },
+  "hunger": 9,
+  "saturation": 8,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmadragonsurvival:toxins": 0.5,
+    "terrafirmadragonsurvival:glucose": 0.25
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:smelly_meat_porridge"
+  },
+  "hunger": 6,
+  "saturation": 10,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmanutrients:protein": 0.5,
+    "terrafirmadragonsurvival:phosphates": 1.0
+  }
+}

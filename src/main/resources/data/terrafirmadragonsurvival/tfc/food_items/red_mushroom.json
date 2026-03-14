@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:red_mushroom"
+  },
+  "hunger": 2,
+  "saturation": 3,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmadragonsurvival:toxins": 0.25
+  }
+}

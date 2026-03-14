@@ -1,0 +1,12 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:fermented_spider_eye"
+  },
+  "hunger": 6,
+  "saturation": 10,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:toxins": 1.0,
+    "terrafirmadragonsurvival:glucose": 0.5
+  }
+}

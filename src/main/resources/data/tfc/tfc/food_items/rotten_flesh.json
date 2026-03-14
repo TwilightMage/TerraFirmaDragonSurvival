@@ -6,6 +6,7 @@
   "saturation": 2,
   "decay_modifier": 0,
   "nutrients": {
-    "terrafirmadragonsurvival:toxins": 1.0
+    "terrafirmanutrients:protein": 0.1,
+    "terrafirmadragonsurvival:toxins": 0.5
   }
 }

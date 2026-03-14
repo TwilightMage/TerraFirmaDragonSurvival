@@ -1,0 +1,13 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:meat_wild_berries"
+  },
+  "hunger": 12,
+  "saturation": 10,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmanutrients:protein": 0.5,
+    "terrafirmadragonsurvival:glucose": 0.25,
+    "terrafirmadragonsurvival:toxins": 0.5
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "item": "minecraft:honey_bottle"
+  },
+  "hunger": 6,
+  "saturation": 1,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmadragonsurvival:glucose": 1.5
+  }
+}

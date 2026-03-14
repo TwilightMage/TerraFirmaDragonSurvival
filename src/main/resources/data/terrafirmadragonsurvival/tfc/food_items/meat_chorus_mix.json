@@ -1,0 +1,13 @@
+﻿{
+  "ingredient": {
+    "item": "dragonsurvival:meat_chorus_mix"
+  },
+  "hunger": 12,
+  "saturation": 8,
+  "decay_modifier": 1,
+  "nutrients": {
+    "terrafirmanutrients:protein": 1.5,
+    "terrafirmadragonsurvival:toxins": 0.5,
+    "terrafirmadragonsurvival:glucose": 0.25
+  }
+}
